@@ -7,7 +7,7 @@ import { Auth0Provider } from "@auth0/auth0-react"
 ReactDOM.render(
   <Auth0Provider
         domain='dev-75n8r-m9.us.auth0.com'
-        clientId='rcyyQzeancC7Gfj0uDFJu4pk7MH6ZXGl'
+        clientId='2r1Xn3mA7c9ehkbZYHKQeaDoSUTph1fC'
         redirectUri={window.location.origin}
         // to use api we need token. props below help to obtain token
         audience="https://dev-75n8r-m9.us.auth0.com/api/v2/"
