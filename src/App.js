@@ -1,5 +1,5 @@
-import React from 'react';
-import './App.css';
+import React from "react";
+import "./App.css";
 import Profile from "./components/Profile";
 import LogoutButton from "./components/LogoutButton";
 import LoginButton from "./components/LoginButton";
@@ -7,9 +7,9 @@ import LoginButton from "./components/LoginButton";
 function App() {
   return (
     <div>
-      <LoginButton/>
-      <LogoutButton/>
-      <Profile/>
+      <LoginButton />
+      <LogoutButton />
+      <Profile />
     </div>
   );
 }
