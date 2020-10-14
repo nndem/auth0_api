@@ -5,16 +5,15 @@ import App from './App';
 import { Auth0Provider } from "@auth0/auth0-react"
 
 ReactDOM.render(
-  <Auth0Provider
-        domain='dev-75n8r-m9.us.auth0.com'
-        clientId='2r1Xn3mA7c9ehkbZYHKQeaDoSUTph1fC'
+    <Auth0Provider
+        domain="dev-75n8r-m9.us.auth0.com"
+        clientId="2r1Xn3mA7c9ehkbZYHKQeaDoSUTph1fC"
         redirectUri={window.location.origin}
-        // to use api we need token. props below help to obtain token
         audience="https://dev-75n8r-m9.us.auth0.com/api/v2/"
         scope="read:current_user update:current_user_metadata"
-  >
-    <App />
-  </Auth0Provider>,
+>
+      <App />
+    </Auth0Provider>,
   document.getElementById('root')
 );
 
